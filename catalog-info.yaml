@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "quarkus-demo"
+  description: "quarkus-demo is a demo"
+  tags:
+    - java
+    - quarkus
+  annotations:
+    'github.com/project-slug': htc-demo-41/quarkus-demo
+    'backstage.io/kubernetes-id': quarkus-demo
+    'humanitec.com/orgId': "htc-demo-41"
+    'humanitec.com/appId': "quarkus-demo"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/guest"
